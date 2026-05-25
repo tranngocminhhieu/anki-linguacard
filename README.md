@@ -23,17 +23,17 @@ A minimal, modern Anki note type for learning vocabulary.
 
 ## Fields
 
-| Field | Description |
-|---|---|
-| `Type` | Word type: `noun`, `verb`, `adj`, `adv`, ... Displayed as a color-coded badge on the card |
-| `Front` | The front of the card — the word or phrase to learn |
-| `Description` | A hint or secondary meaning, shown below the front word |
-| `Image` | An image URL or directly embedded image |
-| `Back` | The main answer |
-| `Pronounce` | IPA transcription; also triggers text-to-speech to read `Back` aloud |
-| `Example` | An example sentence — `Back` is highlighted automatically. Use `\|` for multiple lines |
-| `Variants` | Word variants or related forms. Use `\|` for multiple lines |
-| `Tags` | Built-in Anki tags |
+| Field | Description                                                                                          |
+|---|------------------------------------------------------------------------------------------------------|
+| `Type` | Word type: `noun`, `n`, `n.`, `verb`, `adj`, `adv`, ... Displayed as a color-coded badge on the card |
+| `Front` | The front of the card — the word or phrase to learn                                                  |
+| `Description` | A hint or secondary meaning, shown below the front word                                              |
+| `Image` | An image URL or directly embedded image                                                              |
+| `Back` | The main answer                                                                                      |
+| `Pronounce` | IPA transcription; also triggers text-to-speech to read `Back` aloud                                 |
+| `Example` | An example sentence — `Back` is highlighted automatically. Use `\|` for multiple lines               |
+| `Variants` | Word variants or related forms. Use `\|` for multiple lines                                          |
+| `Tags` | Built-in Anki tags                                                                                   |
 
 ---
 

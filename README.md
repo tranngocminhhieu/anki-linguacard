@@ -71,6 +71,24 @@ If you use AnkiDroid or AnkiMobile and prefer not to type answers:
 
 **Anki** > **Settings** (gear icon) > **Review** > Enable **Never Type Answer**
 
+### Remove Type-in Answer entirely
+
+If you do not want this feature on both desktop and mobile, you can remove it from the template directly.
+
+**Anki** > **Notes** > **Manage Note Types** > Select **LinguaCard** > **Cards** > **Front Template** and **Back Template**
+
+Find and delete the following block:
+
+```html
+<!-- TYPING -->
+<div class="typing-section">
+  <div class="section-label">Type in the answer</div>
+     <div class="type-wrap">
+     {{type:Back}}
+  </div>
+</div>
+```
+
 ---
 
 ## Contributing

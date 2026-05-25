@@ -39,7 +39,7 @@ A minimal, modern Anki note type for learning vocabulary.
 
 ## Import
 
-1. Download the `.apkg` file
+1. Download the [LinguaCard.apkg](apkg/LinguaCard.apkg) file
 2. Open **Anki** and go to **File** > **Import**
 3. Select the downloaded file and click **Import**
 
